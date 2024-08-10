@@ -1,7 +1,7 @@
 <h1 align="center">HedgeDamnRequest</h1>
 <br/>
 
-_Using a hedged HTTP client, it sends requests with a configurable delay between attempts, logs detailed request and response information, and calculates the speed of each server._
+_Using a hedged HTTP client, it sends requests with a configurable delay between attempts, logs detailed request and response information and calculates the speed of each server._
 
 ## Technologies/Library used
 * Golang

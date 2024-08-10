@@ -132,7 +132,9 @@ func main() {
 	close(results)
 
 	// Summarize the results
+	fmt.Println("-------------------------------------------")
 	fmt.Println("Mirror Speed Test Results:")
+	fmt.Println("-------------------------------------------")
 	var fastest, slowest *MirrorResult
 	var totalSpeed float64
 	for result := range results {
@@ -153,7 +155,9 @@ func main() {
 		totalSpeed += result.Speed
 	}
 
-	fmt.Println("\nSummary:")
+	fmt.Println("-------------------------------------------")
+	fmt.Println("Summary:")
+	fmt.Println("-------------------------------------------")
 	if fastest != nil {
 		fmt.Printf("Fastest Mirror: %s - Speed: %.2f bytes/sec\n", fastest.URL, fastest.Speed)
 	}

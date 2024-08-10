@@ -1,0 +1,5 @@
+timeout: 10s
+hedged_requests: 3
+mirrors:
+  - http://localhost:8081/fast
+  - http://localhost:8082/slow

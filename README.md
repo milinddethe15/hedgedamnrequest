@@ -40,7 +40,12 @@ go run main.go #use another terminal tab
 
 Add list of mirror server links to config yaml file to find which mirror link is faster.
 
-## Screenshot
+## Demo
+
+
+https://github.com/user-attachments/assets/2cdda26c-665b-420d-885a-ce7512f681b4
+
+
 ![hedgedamnrequest](https://github.com/user-attachments/assets/a52e5445-f994-402f-b751-1df6566e3f2c)
 
 
